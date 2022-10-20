@@ -1,0 +1,86 @@
+#calculatorOutline {
+    border: 1px solid black;
+    margin: 0px;
+    padding: 8px;
+    height: 360px;
+    width: 360px;
+    background-color: lightgray;
+}
+
+#calculatorTitle {
+    margin: 0px;
+}
+
+#buttonClear {
+    margin: 0px;
+    padding: 8px;
+}   
+
+#display {
+    border: 1px solid gray;
+    background-color: #FFFAA0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    flex-wrap: nowrap;
+}
+
+#containerNumpad {
+    display: flex;
+    flex: 1;
+    height: 192px;
+}
+
+.listNumpad {
+  list-style: none;
+  margin: 0px 0px 0px 8px;
+  padding: 0px;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.listNumbers {
+  flex-grow: 3;
+}
+
+.listOperators {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+/* numpad sizing */
+.numpad {
+  display: flex;
+  height: 25%;
+  margin: 0 0 4px 0;
+}
+
+.numpadButton,
+#negative {
+  font-size: 24px;
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+}
+
+/* operators*/
+.operators {
+  display: flex;
+  height: 20%;
+  margin: 0 0 3px 0;
+}
+
+.operatorButton {
+  font-size: 24px;
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer {
+  justify-content: end;
+}

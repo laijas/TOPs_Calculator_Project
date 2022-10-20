@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickity's Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <h1>Clickity's Calculator</h1>
+    <div id="calculatorOutline">
+        <h2 id="calculatorTitle">It's Calculating Time</h2>
+        <div id="display">enter...</div>
+        <section id="buttonClear">
+            <button type="button" id="backspace">DELETE</button>
+            <button type="button" id="clearDisplay">CLEAR DISPLAY</button>
+            <button type="button" id="clearAll">CLEAR ALL</button>
+        </section>
+        <section id="containerNumpad">
+            <ul class="listNumpad listNumbers">
+                <li class="numpad"><button type="button" class="numpadButton">7</button>
+                                    <button type="button" class="numpadButton">8</button>
+                                    <button type="button" class="numpadButton">9</button>
+                </li>
+                <li class="numpad"><button type="button" class="numpadButton">4</button>
+                                    <button type="button" class="numpadButton">5</button>
+                                    <button type="button" class="numpadButton">6</button>
+                </li>
+                <li class="numpad"><button type="button" class="numpadButton">1</button>
+                                    <button type="button" class="numpadButton">2</button>
+                                    <button type="button" class="numpadButton">3</button>
+                </li>
+                <li class="numpad"><button type="button" class="numpadButton">.</button>
+                                    <button type="button" class="numpadButton">0</button>
+                                    <button type="button" id="negative">(-)</button>
+                </li>
+            </ul>
+            <ul class="listNumpad listOperators">
+                <li class="operators operation"><button type="button" class="operatorButton">+</button></li>
+                <li class="operators operation"><button type="button" class="operatorButton">-</button></li>
+                <li class="operators operation"><button type="button" class="operatorButton">*</button></li>
+                <li class="operators operation"><button type="button" class="operatorButton">/</button></li>
+                <li class="operators" id="equal"><button type="button" class="operatorButton">=</button></li>
+            </ul>
+        </section>
+  </div>  
+</body>
+</html>
